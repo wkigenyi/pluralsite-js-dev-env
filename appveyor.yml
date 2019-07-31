@@ -9,7 +9,7 @@ environment:
       #get the latest stable version of node js
       - ps: Install-Product node $env:nodejs_version
       #install the modules
-      -npm install
+      - npm install
 
     test_script:
       - node --version
